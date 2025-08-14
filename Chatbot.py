@@ -12,7 +12,7 @@ def get_bot_response(user_input):
     elif user_input == "what's your name":
         return "I'm ChatBot 1.0."
     elif user_input == "what can you do":
-        return "I can chat with you and respond to some basic questions."
+        return "I can chat with you and resond to some basic questions."
     elif user_input == "tell me a joke":
         return "Why don’t scientists trust atoms? Because they make up everything!"
     elif user_input == "bye":
@@ -51,3 +51,4 @@ send_button.pack()
 
 # Run the GUI loop
 root.mainloop()
+
